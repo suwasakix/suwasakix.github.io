@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on suwasakix&#39;s weblog</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on suwasakix&#39;s weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 01 May 2023 18:30:00 +0900</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>/categories/hugo/</link>
+      <pubDate>Mon, 01 May 2023 18:30:00 +0900</pubDate>
+      
+      <guid>/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>はじめに</title>
+      <link>/categories/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB/</link>
+      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
+      
+      <guid>/categories/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

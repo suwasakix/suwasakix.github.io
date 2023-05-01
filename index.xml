@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>suwasakix&#39;s weblog</title>
+    <link>/</link>
+    <description>Recent content on suwasakix&#39;s weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 01 May 2023 18:30:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ブログは Hugo &#43; GitHub Pages で</title>
+      <link>/post/hugo/20230501/</link>
+      <pubDate>Mon, 01 May 2023 18:30:00 +0900</pubDate>
+      
+      <guid>/post/hugo/20230501/</guid>
+      <description>&lt;p&gt;　まず、ブログを Hugo + GitHub Pages で作った背景について記しておきたいと思う。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>お問い合わせ</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>はじめに</title>
+      <link>/post/in_the_beginning/</link>
+      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
+      
+      <guid>/post/in_the_beginning/</guid>
+      <description>&lt;p&gt;　GitHub を使ってブログを始めてみることにした。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>筆者プロフィール</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>著作権とライセンス条項について</title>
+      <link>/license/</link>
+      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
+      
+      <guid>/license/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
