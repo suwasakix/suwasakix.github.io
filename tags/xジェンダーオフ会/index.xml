@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>suwasakix&#39;s weblog</title>
-    <link>/</link>
-    <description>Recent content on suwasakix&#39;s weblog</description>
+    <title>Xジェンダーオフ会 on suwasakix&#39;s weblog</title>
+    <link>/tags/x%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC%E3%82%AA%E3%83%95%E4%BC%9A/</link>
+    <description>Recent content in Xジェンダーオフ会 on suwasakix&#39;s weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 15 Aug 2023 15:00:00 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 15:00:00 +0900</lastBuildDate><atom:link href="/tags/x%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC%E3%82%AA%E3%83%95%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xジェンダーオフ会 (2023/10/15) のお知らせ</title>
       <link>/post/xgender-party/20230815/</link>
@@ -49,60 +49,6 @@ https://ws.formzu.net/dist/S996389569/
 1) 前日 18:00 以降であっても、お店側が予約人数の変更を受け付けてくれた場合
 2) 当日に飛び込み参加希望者が出た場合には、その参加者の参加費で相殺
 例えば、当日に参加キャンセルされた方が２名いた場合</description>
-    </item>
-    
-    <item>
-      <title>Kansai Xtreme Walk 2023 (春) 回顧録</title>
-      <link>/post/xtremewalk/20230528/</link>
-      <pubDate>Sun, 28 May 2023 23:00:00 +0900</pubDate>
-      
-      <guid>/post/xtremewalk/20230528/</guid>
-      <description>&lt;p&gt;　2023/5/27～28 に開催された Kansai Xtreme Walk に参加してきましたのでご報告。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>ブログは Hugo &#43; GitHub Pages で</title>
-      <link>/post/hugo/20230501/</link>
-      <pubDate>Mon, 01 May 2023 18:30:00 +0900</pubDate>
-      
-      <guid>/post/hugo/20230501/</guid>
-      <description>&lt;p&gt;　まず、ブログを Hugo + GitHub Pages で作った背景について記しておきたいと思う。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>お問い合わせ</title>
-      <link>/contact/</link>
-      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
-      
-      <guid>/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>はじめに</title>
-      <link>/post/in_the_beginning/</link>
-      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
-      
-      <guid>/post/in_the_beginning/</guid>
-      <description>&lt;p&gt;　GitHub を使ってブログを始めてみることにした。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>筆者プロフィール</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
-      
-      <guid>/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>著作権とライセンス条項について</title>
-      <link>/license/</link>
-      <pubDate>Mon, 01 May 2023 18:00:00 +0900</pubDate>
-      
-      <guid>/license/</guid>
-      <description></description>
     </item>
     
   </channel>
