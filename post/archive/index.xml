@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on suwasakix&#39;s weblog</title>
-    <link>/post/hugo/</link>
-    <description>Recent content in Hugo on suwasakix&#39;s weblog</description>
+    <title>アーカイブ on suwasakix&#39;s weblog</title>
+    <link>/post/archive/</link>
+    <description>Recent content in アーカイブ on suwasakix&#39;s weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 May 2023 18:30:00 +0900</lastBuildDate><atom:link href="/post/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 18:30:00 +0900</lastBuildDate><atom:link href="/post/archive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ブログは Hugo &#43; GitHub Pages で</title>
-      <link>/post/hugo/20230501/</link>
+      <link>/post/archive/20230501/</link>
       <pubDate>Mon, 01 May 2023 18:30:00 +0900</pubDate>
       
-      <guid>/post/hugo/20230501/</guid>
+      <guid>/post/archive/20230501/</guid>
       <description>&lt;p&gt;　まず、ブログを Hugo + GitHub Pages で作った背景について記しておきたいと思う。&lt;/p&gt;</description>
     </item>
     
