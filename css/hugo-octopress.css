@@ -1787,6 +1787,11 @@ h6 {
     margin-top: 0.8em;
 }
 
+div.entry-content > p, ul, li, table, th, td, span {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    line-height: 1.57
+}
+
 /* side bar code from hyde-x - start */
 
 /*
