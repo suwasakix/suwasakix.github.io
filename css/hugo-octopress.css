@@ -253,29 +253,29 @@ h6 {
 }
 h2,
 section h1 {
-    font-size: 1.5em
+    font-size: 1.2em
 }
 h3,
 section h2,
 section section h1 {
-    font-size: 1.3em
+    font-size: 1.1em
 }
 h4,
 section h3,
 section section h2,
 section section section h1 {
-    font-size: 1em
+    font-size: 1.0em
 }
 h5,
 section h4,
 section section h3 {
-    font-size: .9em
+    font-size: 1.0em
 }
 h6,
 section h5,
 section section h4,
 section section section h3 {
-    font-size: .8em
+    font-size: 1.0em
 }
 p,
 article blockquote,
@@ -1768,11 +1768,11 @@ div.entry-content > div.highlight {
 
 /* decrease h1 size in article body so we can use it in the article as heading */
 div.entry-content > h1 {
-    font-size:1.7em;
+    font-size:1.3em;
 }
 
 div.entry-content > h2 {
-    font-size:1.5em;
+    font-size:1.2em;
 }
 
 /* decrease margin for article headings */
