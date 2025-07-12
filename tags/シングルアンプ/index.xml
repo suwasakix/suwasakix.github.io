@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>シングルアンプ on suwasakix&#39;s weblog</title>
+    <link>/tags/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%A2%E3%83%B3%E3%83%97/</link>
+    <description>Recent content in シングルアンプ on suwasakix&#39;s weblog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 12 Jul 2025 21:00:00 +0900</lastBuildDate>
+    <atom:link href="/tags/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%A2%E3%83%B3%E3%83%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6BM8 定電流バイアスシングルアンプ (Elekit TU-870 改)</title>
+      <link>/post/tube-amp/6bm8se-tu870/</link>
+      <pubDate>Sat, 12 Jul 2025 21:00:00 +0900</pubDate>
+      <guid>/post/tube-amp/6bm8se-tu870/</guid>
+      <description>&lt;div class=&#34;image&#34; style=&#34;text-align:center&#34;&gt;&#xA;  &lt;a href=&#34;6bm8se_front.jpg&#34;&gt;&#xA;    &lt;img src=&#34;6bm8se_front.jpg&#34;&#xA;      &#xA;       width=&#34;360&#34;&#xA;       height=&#34;270&#34;&#xA;    /&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;　6BM8 constant current bias Single Amplifier (Reconstruction of ELEKIT TU-870)&lt;/p&gt;&#xA;&lt;p&gt;　本アンプは、当時エレキットから販売されていた真空管アンプ入門キット TU-870 を出力段定電流化するなど完全リフォームしたもので 2004 年に設計・製作しました。ドキュメントの内容は、2011年5月に書いた内容をそのまま転載してあります。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

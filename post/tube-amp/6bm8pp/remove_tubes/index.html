@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <html prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+      <link href="../../../../css/fonts.css" rel="stylesheet" type="text/css">
+    
+  <title>３段構成 6BM8 全段差動プッシュプルアンプ（真空管未挿入時の電圧検証）</title><link rel="stylesheet" href="../../../../css/hugo-octopress.css">
+
+  
+    <link rel="stylesheet" href="../../../../css/font-awesome.min.css">
+  
+    <link href="../../../../favicon.png" rel="icon">
+  
+
+  <meta name="description" content="貸出利用を前提として設計・製作した真空管アンプ（真空管未挿入時の電圧検証）">
+  <meta name="keywords" content="">
+  <meta name="author" content="Suwasaki Ryu"><meta name="generator" content="Hugo 0.147.1">
+  <meta property="og:title" content="３段構成 6BM8 全段差動プッシュプルアンプ（真空管未挿入時の電圧検証）">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="suwasakix&#39;s weblog">
+    <meta property="og:url" content="https://suwasakix.github.io/post/tube-amp/6bm8pp/remove_tubes/index.html">
+    <meta property="og:description" content="貸出利用を前提として設計・製作した真空管アンプ（真空管未挿入時の電圧検証）">
+      
+      
+      
+        <meta property="og:image" content="https://suwasakix.github.io/post/tube-amp/6bm8pp/remove_tubes/6bm8pp_front.jpg">
+      
+    
+        <meta property="fb:app_id" content="889916052116072">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="３段構成 6BM8 全段差動プッシュプルアンプ（真空管未挿入時の電圧検証）">
+    <meta name="twitter:description" content="貸出利用を前提として設計・製作した真空管アンプ（真空管未挿入時の電圧検証）">
+      
+      
+      
+        <meta name="twitter:image" content="https://suwasakix.github.io/post/tube-amp/6bm8pp/remove_tubes/6bm8pp_front.jpg">
+      
+    
+  
+
+
+</head>
+<body><header role="banner"><hgroup><h1><a href="https://suwasakix.github.io">suwasakix&#39;s weblog</a></h1>
+    <h2>SOGIE, Diversity, Software-engineering, Electronics, Finances, Philosophy, etc.</h2>
+</hgroup></header><nav role="navigation"><fieldset class="mobile-nav"><select onchange="location = this.value;">
+    <option value="">Navigate…</option>
+      
+        <option value="/about/index.html">» About Me</option>
+      
+        <option value="/index.html">» Weblog</option>
+      
+        <option value="/categories/index.html">» Categories</option>
+      
+        <option value="/tags/index.html">» Tags</option>
+      
+        <option value="/post/xgender-party/20241014/index.html">» X-gender Party</option>
+      
+        <option value="/post/naramachi-teaparty/20240118/index.html">» Tea Party in Nara</option>
+      
+        <option value="/contact/index.html">» Contact</option>
+      
+  </select>
+</fieldset><ul class="main-navigation">
+    
+      <li><a href="../../../../about/index.html" title="About Me"  target="_blank"  rel="noopener noreferrer">About Me</a></li>
+    
+  
+    
+      <li><a href="../../../../index.html" title="Weblog"  target="_blank"  rel="noopener noreferrer">Weblog</a></li>
+    
+  
+    
+      <li><a href="../../../../categories/index.html" title="Categories"  target="_blank"  rel="noopener noreferrer">Categories</a></li>
+    
+  
+    
+      <li><a href="../../../../tags/index.html" title="Tags"  target="_blank"  rel="noopener noreferrer">Tags</a></li>
+    
+  
+    
+      <li><a href="../../../../post/xgender-party/20241014/index.html" title="X-gender Party"  target="_blank"  rel="noopener noreferrer">X-gender Party</a></li>
+    
+  
+    
+      <li><a href="../../../../post/naramachi-teaparty/20240118/index.html" title="Tea Party in Nara"  target="_blank"  rel="noopener noreferrer">Tea Party in Nara</a></li>
+    
+  
+    
+      <li><a href="../../../../contact/index.html" title="Contact"  target="_blank"  rel="noopener noreferrer">Contact</a></li>
+    
+  
+</ul>
+
+<ul class="subscription">
+  
+    
+        <a href="../../../../index.xml" target="_blank" type="application/rss+xml" title="RSS" rel="noopener noreferrer"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+</ul>
+
+
+  <form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer">
+    <fieldset role="search">
+      <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+      <input type="hidden" name="q" value="site:suwasakix.github.io" />
+    </fieldset>
+  </form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        <header>
+  <p class="meta">2025.07.12
+    
+
+    - <a class="label" href="../../../../categories/%e7%9c%9f%e7%a9%ba%e7%ae%a1%e3%82%a2%e3%83%b3%e3%83%97/index.html">真空管アンプ </a>
+    
+  </p>
+  <h1 class="entry-title">
+     ３段構成 6BM8 全段差動プッシュプルアンプ（真空管未挿入時の電圧検証） 
+  </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          <div class="image" style="text-align:center">
+  <a href="../6bm8pp_front.jpg">
+    <img src="../6bm8pp_front.jpg"
+      
+       width="360"
+       height="270"
+    />
+  </a>
+</div>
+
+<p> </p>
+<p>　6BM8 3-Stage Differential Amplifier</p>
+<p>　本アンプは、貸出利用することを前提として 2019 ～ 2020 年にかけて設計・製作した真空管アンプです。ドキュメントの内容は、2020年8月に書いた内容をそのまま転載してあります。</p>
+<p> </p>
+<p><strong><h1>【 もくじ 】</h1></strong></p>
+<p>◆ 
+<a href="../review/index.html">製作記事</a><br>
+◆ 
+<a href="../circuit/index.html">回路図</a><br>
+◆ 
+<a href="../spec/index.html">特性</a><br>
+◆ 真空管未挿入時の電圧検証</p>
+<div class="toc_unmarked">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-真空管を抜いたときの電圧はどうなるか">■ 真空管を抜いたときの電圧はどうなるか</a>
+      <ul>
+        <li><a href="#-出力管を１本だけ抜いた場合">▼ 出力管を１本だけ抜いた場合</a></li>
+        <li><a href="#-出力管をすべて抜いた場合">▼ 出力管をすべて抜いた場合</a></li>
+        <li><a href="#-真空管をすべて抜いた場合">▼ 真空管をすべて抜いた場合</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<p>◆ 
+<a href="../opt_balance/index.html">出力段DCバランス検証</a><br>
+◆ 
+<a href="../12au7/index.html">ドライバ段12AU7変更</a><br>
+◆ 
+<a href="../1st_balance/index.html">初段DCバランス検証</a></p>
+<p> </p>
+<h1 id="-真空管を抜いたときの電圧はどうなるか">■ 真空管を抜いたときの電圧はどうなるか</h1>
+<p>　本機を製作する上で定めた安全基準の１つに、「任意の真空管を抜いても、各部品の負荷率が 25% を超えないこと」があります。本機は貸出利用を前提としているため、利用者が真空管を抜いた状態でアンプの電源を入れてしまうというのは十分に起こりえるものと想定されますし、真空管を抜いた状態のまま電源を入れっぱなしにした場合であってもトラブルが起きてはならない、というのが本機の製作ポリシーです。そうそう起きることではありませんが、真空管のヒーターが断線した場合についても同様のことが言えます。唯一の例外があるとすれば、プッシュプル回路を構成する真空管のうち片方が抜かれた状態でアンプの電源を入れっぱなしにしてしまい、抜かれていないもう一方の真空管に２本分の電流が流れて傷んでしまった、というケースでしょうか。</p>
+<p>　真空管の装着状態を変えたときに各部の電圧を測定した結果は、下表のようになりました（商用電源電圧 = 101V で測定）。</p>
+<table>
+  <thead>
+      <tr>
+          <th>装着した真空管</th>
+          <th>6BM8×4, 6FQ7×2</th>
+          <th>6FQ7×2</th>
+          <th>6FQ7×1</th>
+          <th>なし</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>整流直後</td>
+          <td>212V</td>
+          <td>240V</td>
+          <td>242V</td>
+          <td>243V</td>
+      </tr>
+      <tr>
+          <td>出力段電源 (B1+)</td>
+          <td>201V</td>
+          <td>239V</td>
+          <td>241V</td>
+          <td>242V</td>
+      </tr>
+      <tr>
+          <td>ドライバ段電源 (B2+)</td>
+          <td>198V</td>
+          <td>235V</td>
+          <td>238V</td>
+          <td>241V</td>
+      </tr>
+      <tr>
+          <td>初段電源 (B3+)</td>
+          <td>23.5V</td>
+          <td>23.5V</td>
+          <td>23.5V</td>
+          <td>23.5V</td>
+      </tr>
+      <tr>
+          <td>ドライバ段 プレート</td>
+          <td>124V</td>
+          <td>159V</td>
+          <td>162V</td>
+          <td>&mdash;</td>
+      </tr>
+      <tr>
+          <td>ドライバ段 カソード</td>
+          <td>18.7V</td>
+          <td>22.3V</td>
+          <td>22.6V</td>
+          <td>&mdash;</td>
+      </tr>
+      <tr>
+          <td>ドライバ段 FET ドレイン</td>
+          <td>7.2V</td>
+          <td>10.8V</td>
+          <td>11.1V</td>
+          <td>&mdash;</td>
+      </tr>
+      <tr>
+          <td>初段 FET ドレイン</td>
+          <td>15.5V</td>
+          <td>17.3V</td>
+          <td>17.6V</td>
+          <td>18.0V</td>
+      </tr>
+      <tr>
+          <td>初段 FET ソース</td>
+          <td>0.45V</td>
+          <td>0.56V</td>
+          <td>0.59V</td>
+          <td>0.62V</td>
+      </tr>
+      <tr>
+          <td>出力段 Tr ベース</td>
+          <td>6.56V</td>
+          <td>0.72V</td>
+          <td>0.73V</td>
+          <td>0.74V</td>
+      </tr>
+      <tr>
+          <td>マイナス電源</td>
+          <td>-3.77V</td>
+          <td>-0.46V</td>
+          <td>-0.31V</td>
+          <td>-0.17V</td>
+      </tr>
+  </tbody>
+</table>
+<p> </p>
+<h2 id="-出力管を１本だけ抜いた場合">▼ 出力管を１本だけ抜いた場合</h2>
+<p>　このケースについては測定を行っていません。実際にやるとプッシュプル回路のもう１本の出力管が定格オーバーになってしまいますが、わざわざ貴重な 6BM8 を痛めつけてまで行う実験ではないので……このケースについては実機検証ではなく設計保証として考えたいと思います。</p>
+<p>　全段差動プッシュプルでは差動増幅回路を構成する一方の真空管を抜くと、もう一方の真空管に２本分の電流が集中して流れてしまいます。6FQ7 のような双三極管であれば支障はありませんが、出力段は２本１組で構成されるケースがほとんどのため、出力管を１本だけ抜いた状態でアンプの電源を入れっぱなしにすると残りの１本は確実に傷んでしまいます。この問題を避ける手段として独立定電流方式（実際の例は
+<a href="http://www.op316.com/tubes/myamp/data1.htm" target="_blank" rel="noopener">こちら</a>）がありますが音質が犠牲になるデメリットがあることから本機では採用しませんでした。つまり、最悪真空管１本がパーになってしまうのは許容するという判断です。</p>
+<p>　しかし、出力管以外の部品、たとえば出力トランスにまで被害が拡大してしまっては困ります。本機のプッシュプル出力トランスの選定基準は、出力段のプレート電流２本分の値が出力トランスの DC 定格（２本分）の２分の１を超えないことです。本機に使用した出力トランス TANGO FE-25-8 の DC 定格は２本分で 130mA なので、出力トランスの B ～ P1 および B ～ P2 の許容 DC 電流は 65mA であり、出力管１本当たりのプレート電流は最大 32.5mA まで許容されると考えます。そうすれば、プッシュプル出力段の真空管を１本抜かれてもう一本の真空管に２本分の電流 62.5mA が流れたとしても、出力トランスの定格内に収まるということです。</p>
+<p> </p>
+<h2 id="-出力管をすべて抜いた場合">▼ 出力管をすべて抜いた場合</h2>
+<p>　出力段の真空管をすべて抜いた場合には当然アンプの電圧配分が変わりますが、その要因は主に２つあります。１つは回路全体の消費電流が激減するために電源電圧が高くなること、もう１つはマイナス電源を疑似的に作り出している 33Ω に流れる電流量も激減するためにマイナス電源電圧の大きさが低下することです。</p>
+<p>　まずは電源電圧の確認ですが、整流直後の電圧は 212V → 240V となりました。そのため、ドライバ段 6FQ7 のプレート電圧も 105V → 137V に上昇します。6FQ7 のユニットあたりの消費電力は 137V × 2.4mA / 1000 = 0.33W となりますが、6FQ7 の最大プレート損失の定格よりも十分に低いので問題ありません。6FQ7 の代替候補である 12AU7 でも最大プレート損失は 2.75W あります。</p>
+<p>　一方、マイナス電源電圧の大きさは -3.77V → -0.46V と低下しました。マイナス電源は初段の定電流回路の動作に必要な電圧差を供給するためのものなので、マイナス電源電圧が下がると定電流回路の動作条件が変わることで初段の DC バランスが崩れます。具体的には、定電流回路にかかる電圧が下がるために初段の電流量が低下します。すると、初段 FET のバイアスは深くなり（FET のソースの電圧が上がります）、ドレイン端子の電圧も上がります。初段とドライバ段とは直結になっているので、ドライバ段のカソード電圧も合わせて上昇することになるので、ドライバ段の定電流回路を構成する FET にかかる電圧も上昇することになります。</p>
+<p>　マイナス電源電圧の変動による一連の影響範囲のうち、検証が必要なのはドライバ段定電流回路の FET の消費電力です。また、ドライバ段の定電流回路にかかる電圧は、ドライバ段の真空管１本を残してそれ以外の真空管をすべて抜いたケースが最も厳しい条件になります。本機においてドライバ段 6FQ7 １本を残して他の真空管をすべて抜いてアンプの電源を入れた場合、ドライバ段まわりの各部電圧は次のようになりました。</p>
+<ul>
+<li>ドライバ段電源電圧 (B2+) : 238V</li>
+<li>ドライバ段 プレート電圧 : 162V</li>
+<li>ドライバ段 カソード電圧 : 22.6V</li>
+<li>ドライバ段定電流回路 FET ドレイン電圧 : 11.1V</li>
+</ul>
+<p>　つまり FET (2SK246) の消費電力は 11.1V × 4.8mA = 53.3mW となり、これは本機の安全基準である 75mW（2SK246 の電力定格 300mW の 1/4）を下回っていますので発熱に関する基準はクリアできています。もし 6FQ7 と定電流回路の間に 2.4kΩ のドロップ抵抗を入れていなかった場合 FET の消費電力は 22.6 × 4.8mW = 108.5mW となってしまい、たとえ定格内の動作であったとしても FET にとっては酷な条件になってしまい、アンプを長期運用する上で不安材料になります。</p>
+<p> </p>
+<h2 id="-真空管をすべて抜いた場合">▼ 真空管をすべて抜いた場合</h2>
+<p>　真空管をすべて抜いた場合、初段、初段電源回路、および出力段定電流回路にのみ電流が流れます。ドライバ段には電流が流れないので、ドライバ段～出力段の段間結合コンデンサにはドライバ段電源 (B2+) に等しい電圧がかかることになります。この電圧は実測で 241V となったので、商用電源電圧の変動マージンを考慮すると段間結合コンデンサは 250V クラスのものでは耐圧不足で 400V クラスのものが必要です。</p>
+<p>　初段の電源電圧は 23.5V、初段 FET のドレイン電圧は 18.0V となったことから、初段 FET に流れる電流は (23.5V - 18.0V) / 9.1kΩ = 0.60mA となります。FET のドレイン～ソース間の電圧は 18.0V - 0.62V = 17.38V なので、初段 FET の消費電力は 17.38V × 0.60mA = 10.4mW となり、真空管をすべて装着した状態よりも消費電力は下がります。</p>
+<p>　初段電源回路について確認すると、ドライバ段電源電圧 (B2+) が 241V であることから、20kΩ + 20kΩ のドロップ抵抗には 241V - 23.5V = 217.5V の電圧がかかり、流れる電流の大きさは 217.5V / 40kΩ = 5.44mA となります。したがって、20kΩ の抵抗１個当たりの消費電力は 5.44mA × 5.44mA × 20kΩ / 1000 = 0.59W です。本機の設計基準では抵抗器の負荷率（ディレーティング）は 25% と規定しているため、この抵抗器は 2W のものでは定格不足であり 3W のものが必要です。また、初段電源回路のツェナーダイオードに流れる電流は 5.44mA - (0.60mA × 4) = 3.04mA となることから、ツェナーダイオードの消費電力はおおよそ 23.5V × 3.04mA = 71.4mW となるので定格が 1/2 W クラス以上のものが必要です。NEC の RD シリーズは定格 500mW、Fairchild の 1N4728A - 1N4758A シリーズは定格 1W なので、本機の基準ではどちらも使えます。</p>
+<p>　出力段定電流回路の電圧を測定してみると、トランジスタ (2SD1411A) のベース端子の電圧は 0.74V になっています（6V のツェナーダイオードには電流が流れず、すべてトランジスタの方に流れているため）。そのため、ドロップ抵抗 47kΩ + 47kΩ にかかる電圧は出力段電源電圧 (B1+) 242V にほぼ等しいと考えることができ、ドロップ抵抗に流れる電流の大きさは 242V / 94kΩ = 2.57mA となります。したがって、20kΩ の抵抗１個当たりの消費電力は 2.57mA × 2.57mA × 47kΩ / 1000 = 0.31W です。つまり、47kΩ のドロップ抵抗には 2W の定格のものを使用すれば問題ない、ということになります。</p>
+<p>　以上、長々と書いてしまいましたが、本機では安全基準をクリアできているかどうかの検証のために以上の確認を行っています。</p>
+        </div>
+        <footer>
+  <p class="meta">
+    <span class="byline author vcard">&ensp;&ensp;Posted by <span class="fn">Suwasaki Ryu</span></span><time>2025.07.12 21:25</time>
+    
+      <span class="categories">
+        Tags:<a class="category" href="../../../../tags/%e7%9c%9f%e7%a9%ba%e7%ae%a1%e3%82%a2%e3%83%b3%e3%83%97/index.html">真空管アンプ</a>  <a class="category" href="../../../../tags/%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab/index.html">全段差動プッシュプル</a>  <a class="category" href="../../../../tags/6bm8/index.html">6BM8</a>  <a class="category" href="../../../../tags/6fq7/index.html">6FQ7</a>  <a class="category" href="../../../../tags/12au7/index.html">12AU7</a>  <a class="category" href="../../../../tags/2sk30a/index.html">2SK30A</a>  <a class="category" href="../../../../tags/fe-25-8/index.html">FE-25-8</a>  
+    
+    </span>
+  </p>
+    <div class="sns_share_area">
+      <ul class="sns_share_list"><li class="sns_share_item">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2fremove_tubes%2findex.html&t=%ef%bc%93%e6%ae%b5%e6%a7%8b%e6%88%90%206BM8%20%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab%e3%82%a2%e3%83%b3%e3%83%97%ef%bc%88%e7%9c%9f%e7%a9%ba%e7%ae%a1%e6%9c%aa%e6%8c%bf%e5%85%a5%e6%99%82%e3%81%ae%e9%9b%bb%e5%9c%a7%e6%a4%9c%e8%a8%bc%ef%bc%89%0A"><i class="fa-brands fa-facebook fa-2x" style="color:#1877f2"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2fremove_tubes%2findex.html&text=%ef%bc%93%e6%ae%b5%e6%a7%8b%e6%88%90%206BM8%20%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab%e3%82%a2%e3%83%b3%e3%83%97%ef%bc%88%e7%9c%9f%e7%a9%ba%e7%ae%a1%e6%9c%aa%e6%8c%bf%e5%85%a5%e6%99%82%e3%81%ae%e9%9b%bb%e5%9c%a7%e6%a4%9c%e8%a8%bc%ef%bc%89%0A"><i class="fa-brands fa-twitter fa-2x" style="color:#1d9bf0"></i></a>
+          <a href="https://twitter.com/search?q=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2fremove_tubes%2findex.html"><i class="fa-solid fa-comment-dots fa-2x" style="color:#1d9bf0"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://bsky.app/intent/compose?text=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2fremove_tubes%2findex.html"><i class="fa-brands fa-bluesky fa-2x" style="color:#1185fe"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://mastodonshare.com/?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2fremove_tubes%2findex.html&text=%ef%bc%93%e6%ae%b5%e6%a7%8b%e6%88%90%206BM8%20%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab%e3%82%a2%e3%83%b3%e3%83%97%ef%bc%88%e7%9c%9f%e7%a9%ba%e7%ae%a1%e6%9c%aa%e6%8c%bf%e5%85%a5%e6%99%82%e3%81%ae%e9%9b%bb%e5%9c%a7%e6%a4%9c%e8%a8%bc%ef%bc%89%0A"><i class="fa-brands fa-mastodon fa-2x" style="color:#6364ff"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://b.hatena.ne.jp/entry/https://suwasakix.github.io/post/tube-amp/6bm8pp/remove_tubes/index.html"><img class="sns_share_item_image" src="../../../../share/hatena.png" width="36px" height="36px"></img></a>
+        </li><li class="sns_share_item">
+          <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2fremove_tubes%2findex.html"><img class="sns_share_item_image" src="../../../../share/line.png" width="36px" height="36px"></img></a>
+        </li>
+      </ul>
+      <p>
+      </p>
+    </div>
+  
+</footer>
+
+      </article>
+    </div>
+    <aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>About this blog</h1>
+    
+
+    <p>
+      
+        Xジェンダーとしていわゆる LGBTs 系の題材を扱いつつ、ダイバーシティ、ソフトウェア開発、電気工作、金融経済など幅広いジャンルをカバーします。
+      
+    </p>
+  </section><ul class="sidebar-nav">
+  <li class="sidebar-nav-item">
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/suwasakix" title="https://github.com/suwasakix"><i class="fa-brands fa-github fa-2x"></i></a>
+    
+    
+    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/suwasakix" title="https://twitter.com/suwasakix"><i class="fa-brands fa-twitter fa-2x"></i></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/suwasakix.bsky.social" title="https://bsky.app/profile/suwasakix.bsky.social"><i class="fa-brands fa-bluesky fa-2x"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </li>
+</ul>
+
+    
+      <br>
+      <section class="even">
+        <h1>Categories</h1>
+          
+            <li>
+              <a href="../../../../categories/100km%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF/index.html" title="Categories" >100kmウォーク</a> <span class="count">(9)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/x%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC%E3%82%AA%E3%83%95%E4%BC%9A/index.html" title="Categories" >Xジェンダーオフ会</a> <span class="count">(2)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/index.html" title="Categories" >アーカイブ</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E3%81%AA%E3%82%89%E3%81%BE%E3%81%A1%E3%81%8A%E8%8C%B6%E4%BC%9A/index.html" title="Categories" >ならまちお茶会</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB/index.html" title="Categories" >はじめに</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E6%80%9D%E3%81%84%E5%87%BA/index.html" title="Categories" >思い出</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E7%9C%9F%E7%A9%BA%E7%AE%A1%E3%82%A2%E3%83%B3%E3%83%97/index.html" title="Categories" >真空管アンプ</a> <span class="count">(9)</span>
+            </li>
+          
+      </section>
+    
+  
+    
+      <br>
+      <section class="even">
+        
+          <h1>External Links</h1>
+        
+        
+          <li>
+            <a href="https://ftxmtx-x-gender.com" title="label X" >label X</a>
+          </li>
+        
+          <li>
+            <a href="https://www.asahi.com/xtremewalk/" title="Xtreme Walk" >Xtreme Walk</a>
+          </li>
+        
+          <li>
+            <a href="http://www.op316.com/tubes/tubes.htm" title="情熱の真空管" >情熱の真空管</a>
+          </li>
+        
+      </section>
+    
+  
+    
+      <br>
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+          
+            <li class="post">
+              <a href="../../../../post/tube-amp/6bm8pp/review/index.html">３段構成 6BM8 全段差動プッシュプルアンプ</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/tube-amp/ecc99pp/index.html">ECC99 全段差動プッシュプルアンプ</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/tube-amp/6bm8se-tu870/index.html">6BM8 定電流バイアスシングルアンプ (Elekit TU-870 改)</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/100kmwalk/20250618/index.html">第10回東京エクストリームウォーク100 (2025.5.17-18) 回顧録</a> <time><span class="date">2025.06.18</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/memories/20250509/index.html">飼い猫の思い出 (2003 - 2025)</a> <time><span class="date">2025.05.09</span></time>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+</aside>
+
+  </div>
+</div>
+
+    <footer role="contentinfo">
+      <p>Copyright &copy; 2025 Suwasaki Ryu - <a href="../../../../license/index.html">License</a> -
+        <span class="credit">Powered by <a target="_blank" href="https://gohugo.io" rel="noopener noreferrer">Hugo</a> and <a target="_blank" href="https://github.com/suwasakix/hugo-octopress/" rel="noopener noreferrer">Hugo-Octopress</a> theme.
+      </p>
+    </footer>
+  </body>
+</html>
+

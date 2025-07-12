@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <html prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+      <link href="../../../../css/fonts.css" rel="stylesheet" type="text/css">
+    
+  <title>３段構成 6BM8 全段差動プッシュプルアンプ（初段DCバランス検証）</title><link rel="stylesheet" href="../../../../css/hugo-octopress.css">
+
+  
+    <link rel="stylesheet" href="../../../../css/font-awesome.min.css">
+  
+    <link href="../../../../favicon.png" rel="icon">
+  
+
+  <meta name="description" content="貸出利用を前提として設計・製作した真空管アンプ（初段DCバランス検証）">
+  <meta name="keywords" content="">
+  <meta name="author" content="Suwasaki Ryu"><meta name="generator" content="Hugo 0.147.1">
+  <meta property="og:title" content="３段構成 6BM8 全段差動プッシュプルアンプ（初段DCバランス検証）">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="suwasakix&#39;s weblog">
+    <meta property="og:url" content="https://suwasakix.github.io/post/tube-amp/6bm8pp/1st_balance/index.html">
+    <meta property="og:description" content="貸出利用を前提として設計・製作した真空管アンプ（初段DCバランス検証）">
+      
+      
+      
+        <meta property="og:image" content="https://suwasakix.github.io/post/tube-amp/6bm8pp/1st_balance/6bm8pp_front.jpg">
+      
+    
+        <meta property="fb:app_id" content="889916052116072">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="３段構成 6BM8 全段差動プッシュプルアンプ（初段DCバランス検証）">
+    <meta name="twitter:description" content="貸出利用を前提として設計・製作した真空管アンプ（初段DCバランス検証）">
+      
+      
+      
+        <meta name="twitter:image" content="https://suwasakix.github.io/post/tube-amp/6bm8pp/1st_balance/6bm8pp_front.jpg">
+      
+    
+  
+
+
+</head>
+<body><header role="banner"><hgroup><h1><a href="https://suwasakix.github.io">suwasakix&#39;s weblog</a></h1>
+    <h2>SOGIE, Diversity, Software-engineering, Electronics, Finances, Philosophy, etc.</h2>
+</hgroup></header><nav role="navigation"><fieldset class="mobile-nav"><select onchange="location = this.value;">
+    <option value="">Navigate…</option>
+      
+        <option value="/about/index.html">» About Me</option>
+      
+        <option value="/index.html">» Weblog</option>
+      
+        <option value="/categories/index.html">» Categories</option>
+      
+        <option value="/tags/index.html">» Tags</option>
+      
+        <option value="/post/xgender-party/20241014/index.html">» X-gender Party</option>
+      
+        <option value="/post/naramachi-teaparty/20240118/index.html">» Tea Party in Nara</option>
+      
+        <option value="/contact/index.html">» Contact</option>
+      
+  </select>
+</fieldset><ul class="main-navigation">
+    
+      <li><a href="../../../../about/index.html" title="About Me"  target="_blank"  rel="noopener noreferrer">About Me</a></li>
+    
+  
+    
+      <li><a href="../../../../index.html" title="Weblog"  target="_blank"  rel="noopener noreferrer">Weblog</a></li>
+    
+  
+    
+      <li><a href="../../../../categories/index.html" title="Categories"  target="_blank"  rel="noopener noreferrer">Categories</a></li>
+    
+  
+    
+      <li><a href="../../../../tags/index.html" title="Tags"  target="_blank"  rel="noopener noreferrer">Tags</a></li>
+    
+  
+    
+      <li><a href="../../../../post/xgender-party/20241014/index.html" title="X-gender Party"  target="_blank"  rel="noopener noreferrer">X-gender Party</a></li>
+    
+  
+    
+      <li><a href="../../../../post/naramachi-teaparty/20240118/index.html" title="Tea Party in Nara"  target="_blank"  rel="noopener noreferrer">Tea Party in Nara</a></li>
+    
+  
+    
+      <li><a href="../../../../contact/index.html" title="Contact"  target="_blank"  rel="noopener noreferrer">Contact</a></li>
+    
+  
+</ul>
+
+<ul class="subscription">
+  
+    
+        <a href="../../../../index.xml" target="_blank" type="application/rss+xml" title="RSS" rel="noopener noreferrer"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+</ul>
+
+
+  <form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer">
+    <fieldset role="search">
+      <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+      <input type="hidden" name="q" value="site:suwasakix.github.io" />
+    </fieldset>
+  </form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        <header>
+  <p class="meta">2025.07.12
+    
+
+    - <a class="label" href="../../../../categories/%e7%9c%9f%e7%a9%ba%e7%ae%a1%e3%82%a2%e3%83%b3%e3%83%97/index.html">真空管アンプ </a>
+    
+  </p>
+  <h1 class="entry-title">
+     ３段構成 6BM8 全段差動プッシュプルアンプ（初段DCバランス検証） 
+  </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          <div class="image" style="text-align:center">
+  <a href="../6bm8pp_front.jpg">
+    <img src="../6bm8pp_front.jpg"
+      
+       width="360"
+       height="270"
+    />
+  </a>
+</div>
+
+<p> </p>
+<p>　6BM8 3-Stage Differential Amplifier</p>
+<p>　本アンプは、貸出利用することを前提として 2019 ～ 2020 年にかけて設計・製作した真空管アンプです。ドキュメントの内容は、2020年8月に書いた内容をそのまま転載してあります。</p>
+<p> </p>
+<p><strong><h1>【 もくじ 】</h1></strong></p>
+<p>◆ 
+<a href="../review/index.html">製作記事</a><br>
+◆ 
+<a href="../circuit/index.html">回路図</a><br>
+◆ 
+<a href="../spec/index.html">特性</a><br>
+◆ 
+<a href="../remove_tubes/index.html">真空管未挿入時の電圧検証</a><br>
+◆ 
+<a href="../opt_balance/index.html">出力段DCバランス検証</a><br>
+◆ 
+<a href="../12au7/index.html">ドライバ段12AU7変更</a><br>
+◆ 初段DCバランス検証</p>
+<div class="toc_unmarked">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-初段のdcバランスを崩すとどうなるか">■ 初段のDCバランスを崩すとどうなるか</a>
+      <ul>
+        <li><a href="#-歪み率">▼ 歪み率</a>
+          <ul>
+            <li><a href="#8ω-負荷-100hz">・8Ω 負荷, 100Hz</a></li>
+            <li><a href="#8ω-負荷-1khz">・8Ω 負荷, 1kHz</a></li>
+            <li><a href="#8ω-負荷-10khz">・8Ω 負荷, 10kHz</a></li>
+          </ul>
+        </li>
+        <li><a href="#-何はともあれ-dcac-電圧の確認">▼ 何はともあれ DC/AC 電圧の確認</a>
+          <ul>
+            <li><a href="#dcac-測定結果-入力信号-400hz-初段-dc-アンバランス-0">・DC/AC 測定結果 (入力信号 400Hz, 初段 DC アンバランス 0%)</a></li>
+            <li><a href="#dcac-測定結果-入力信号-400hz-初段-dc-アンバランス-5">・DC/AC 測定結果 (入力信号 400Hz, 初段 DC アンバランス 5%)</a></li>
+          </ul>
+        </li>
+        <li><a href="#-ドライバ段のロードラインを検証する">▼ ドライバ段のロードラインを検証する</a>
+          <ul>
+            <li><a href="#ドライバ段-6fq7-のロードライン-初段-dc-アンバランスなし">・ドライバ段 6FQ7 のロードライン (初段 DC アンバランスなし)</a></li>
+            <li><a href="#ドライバ段-6fq7-の動作ポイント-初段-dc-アンバランス-5">・ドライバ段 6FQ7 の動作ポイント (初段 DC アンバランス 5%)</a></li>
+            <li><a href="#ドライバ段-6fq7-のロードライン-初段-dc-アンバランス-5">・ドライバ段 6FQ7 のロードライン (初段 DC アンバランス 5%)</a></li>
+          </ul>
+        </li>
+        <li><a href="#-まとめ">▼ まとめ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<p> </p>
+<h1 id="-初段のdcバランスを崩すとどうなるか">■ 初段のDCバランスを崩すとどうなるか</h1>
+<p>　３段構成の全段差動プッシュプルでは、初段に FET を使いドライバ段と直結にする構成が定石化されていて、初段 FET は Idss の特性を 1% 程度の精度でペア組みしたものを使用することがお約束となっています。ぺるけさんの作例を見ると、全段差動プッシュプルだけでなく（私の確認した限りでは）差動回路では例外無く選別した FET が実装されています。さらに、ぺるけさんはペア組みした FET の頒布までやっておられてので、おそらく世の中に存在する全段差動プッシュプルアンプのほとんどに選別品の FET が使われている……と思います。FET を選別する理由については、ぺるけさんのＨＰを全体的に読むと次の２点に集約されると考えられます。</p>
+<ul>
+<li>DC バランスの調整回路を不要にし、最小の部品数で回路を実装するため（ラグ板による実装を前提にしているから）</li>
+<li>半導体ペアの温度特性を揃えるため</li>
+</ul>
+<p>　後者の温度特性を揃えることについては、
+<a href="http://www.op316.com/tubes/mw/mw-15v-p5.htm" target="_blank" rel="noopener">トランジスタ式ミニワッターのページ</a>で言及がなされています。ただ、当然ながらトランジスタ式アンプの回路構成は真空管式全段差動プッシュプルとは全くの別物なので、初段 FET ペアの温度特性のずれが３段構成全段差動プッシュプルにもたらす影響は？なところがありますので、ここでは脇に置いておくことにします。</p>
+<p>　前者については、全段差動プッシュプルの作例のページで「DCバランスを無調整にするため」と説明があります。ぺるけさんのＨＰから該当箇所を引用しますと、</p>
+<blockquote>
+<p>『無調整のまま差動プッシュプル動作で2段直結を実現するために、使用した2SK30Aはかなり厳密な選別を行っています（直流バランスの調整回路をつけるならばこんな厳密な選別はいりません）』<br>
+- 
+<a href="http://www.op316.com/tubes/myamp/6ah4pp.htm" target="_blank" rel="noopener">6AH4 全段差動プッシュプル・アンプ</a></p></blockquote>
+<blockquote>
+<p>『無調整で初段とドライバ段を直結したかったので、精密に選別したJFETのペアを使用します。精密に選別しなくても、Idssがある程度揃ったものを使い共通ソース側に100Ω程度の半固定ボリュームを入れて差動のDCバランスを調節してもかまいません』<br>
+- 
+<a href="http://www.op316.com/tubes/balanced/el34-15w-monitor.htm" target="_blank" rel="noopener">平衡型EL34全段差動プッシュプル・モニター・アンプ</a></p></blockquote>
+<p>　つまり、本機のように初段の共通ソースに DC バランス調整用の半固定抵抗を追加すれば精密な選別は不要である、ということです。</p>
+<p>　ところで、このことを逆説的に考えると、初段の DC バランスが崩れてしまうと３段構成全段差動プッシュプルアンプは本来の性能を発揮できない、ということになります。本機には DC バランス調整回路を実装していますので、わざと初段の DC バランスを崩してしまうことも、やろうと思えば可能です。そうすれば、差動回路のバランスが崩れて歪み率が悪化するはず。</p>
+<p>　ネットを見渡すと DC バランス調整用の回路を実装した作例はちらほら見かけたのですが、このような実験を行った人はまだ誰もいなさそうです。そりゃ音が悪くなりそうな実験は誰もやらないよなぁ……ということで、おそらくまだ誰もやっていなかったであろう実験を行うことにしました。</p>
+<p> </p>
+<h2 id="-歪み率">▼ 歪み率</h2>
+<p>　本機の R-ch は初段 FET にそれぞれ 0.885mA が流れるように DC バランスを調整していますが、調整用ボリュームを振り切ることで 0.909mA / 0.865mA （つまり最大で 5.0%）のアンバランスをつけることが可能でした。両者の条件で歪み率を測定して差を検証することにした結果がこちらです。（⊿I = 0.0% はアンバランスなし、⊿I = 5.0% は 5.0% のアンバランスありのグラフです）</p>
+<p> </p>
+<h3 id="8ω-負荷-100hz">・8Ω 負荷, 100Hz</h3>
+<div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_thdn_100hz.gif">
+    <img src="../6bm8pp_1st_balance_thdn_100hz.gif"
+      
+       width="480"
+       height="240"
+    />
+  </a>
+</div>
+
+<p> </p>
+<h3 id="8ω-負荷-1khz">・8Ω 負荷, 1kHz</h3>
+<div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_thdn_1khz.gif">
+    <img src="../6bm8pp_1st_balance_thdn_1khz.gif"
+      
+       width="480"
+       height="240"
+    />
+  </a>
+</div>
+
+<p> </p>
+<h3 id="8ω-負荷-10khz">・8Ω 負荷, 10kHz</h3>
+<p><div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_thdn_10khz.gif">
+    <img src="../6bm8pp_1st_balance_thdn_10khz.gif"
+      
+       width="480"
+       height="240"
+    />
+  </a>
+</div>
+
+<span style="font-size:70%;display:block;text-align:center">（測定環境）Windows 10 Pro, WaveSpectra 1.51, USB Audio Device 96kHz 24bit, WASAPI Driver</span></p>
+<p> </p>
+<p>　なんということでしょう、初段のDCバランスを5%崩してみても、歪み率への影響はほぼ無し。<br>
+……えーと、つまりですね。このデータが意味するところは</p>
+<p>　<strong>全段差動プッシュプルアンプの製作にあたり、皆が血眼になって FET の精密なペア取りをしたけれど、実は無駄な努力だったかもしれない</strong></p>
+<p>ということです (^^;</p>
+<p> </p>
+<h2 id="-何はともあれ-dcac-電圧の確認">▼ 何はともあれ DC/AC 電圧の確認</h2>
+<p>　ぺるけさんの説明の裏付け確認をするつもりが、予想外の結果になってしまいました。ただし、この実験結果は初段 FET の DC バランスに 5% 程度のアンバランスがあってもアンプの歪み率への影響はほとんど出ないことが分かっただけであって、初段 FET の選別そのものが不要であるということを意味しません。では、アンバランスが 20 ～ 30% くらい大きくなったらどうなるか？ということも調べたくはなってきますが、少なくとも初段 FET の共通ソースにある 20Ω の可変ボリュームを抵抗値が大きいものに取り換える必要があり、半田ごてで部品交換する際に熱で FET を痛めるリスクを考えるとお手軽に試してみる気にはなれません。</p>
+<p>　それはさておき、なぜ初段 FET の DC バランスが崩れてもアンプの歪み率に影響が出ないのかは調べておきたいところです。まずは取っ掛かりに増幅回路各部の DC/AC 電圧を測定することにしました。アンバランスあり／なし、それぞれの場合について電圧を測定した結果を下図に示します（商用電源電圧がおよそ 101V のときの測定値です）。</p>
+<p>　電圧は DC/AC いずれも横河のディジタルマルチメーター 732-02 で測定しました。
+<a href="http://www.op316.com/tubes/datalib/flukfreq.htm" target="_blank" rel="noopener">ディジタルマルチメータ (DMM) で 1kHz 以上の交流信号の電圧を測定しようとすると実際よりも低い電圧が出てしまうため</a>、アンプの LINE IN 端子に 400Hz の信号を入力して AC 電圧を測定しています。( ) で括られた電圧値が AC 電圧、そうでない電圧値が DC 電圧です。</p>
+<p> </p>
+<h3 id="dcac-測定結果-入力信号-400hz-初段-dc-アンバランス-0">・DC/AC 測定結果 (入力信号 400Hz, 初段 DC アンバランス 0%)</h3>
+<div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_voltage_diff0.gif">
+    <img src="../6bm8pp_1st_balance_voltage_diff0.gif"
+      
+       width="600"
+       height="323"
+    />
+  </a>
+</div>
+
+<p> </p>
+<h3 id="dcac-測定結果-入力信号-400hz-初段-dc-アンバランス-5">・DC/AC 測定結果 (入力信号 400Hz, 初段 DC アンバランス 5%)</h3>
+<div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_voltage_diff5.gif">
+    <img src="../6bm8pp_1st_balance_voltage_diff5.gif"
+      
+       width="600"
+       height="323"
+    />
+  </a>
+</div>
+
+<p> </p>
+<p>　アンバランスなしの場合、初段 2SK30A のドレイン電圧は A, B いずれも 15.45V なので、ドライバ段 6FQ7 のバイアスは A, B とも -3.38V と同じ値になります。それでも 6FQ7 のプレート電圧に 1.6V の差がついているのは、6FQ7 の三極管ユニット A, B に個体ばらつきがあるためです。ドライバ段のプレート負荷抵抗をマーカー値通りの 33kΩ として計算してみますと、6FQ7 のユニット A には 2.27mA、ユニット B には 2.32mA の電流が流れていることになります。つまりドライバ段のプレート電流は 2% のアンバランスがあります。</p>
+<p>　にも関わらず、アンプ出力が 1V（8Ω 負荷で 0.125W）のときの歪み率を上のグラフで見てみると、軽く 0.1% を下回っています。つまり、ドライバ段に使用している双三極管のユニットの特性が揃っていなくても、プッシュプル回路では歪み率への悪影響はありません（真空管のマーケットではユニット間の特性が揃った選別品の双三極管が売られていることがありますが、わざわざそれを使用しなければならない必要性はないということです）。</p>
+<p>　さて、話を元に戻して初段のアンバランスが 5% の場合を見てみますと、初段 2SK30A のドレイン電圧は A ～ B 間で 0.4V の差がついています。ドライバ段 6FQ7 のバイアスも 0.4V の差がつくことになり、バイアスが深い A のプレート電流が少なくてプレート電圧は高く、バイアスが浅い B のプレート電流は多くてプレート電圧は低くなります。6FQ7 のユニット A に流れる電流は 2.17mA、ユニット B に流れる電流は 2.41mA となり、アンバランスなしの場合と比べて約 0.1mA ずつ増減していることになります。その一方で、A ～ B 間のプレート電圧差は 1.6V から 7.9V に拡大しています。</p>
+<p>　その一方で、初段の DC バランスを崩したことで回路各部の DC 電圧が変動したにも関わらず、AC 電圧（つまりオーディオ信号の成分）の値はほとんど変化がありませんでした。直結回路の前段で少々DCバランスが釣り合っていなくても、差動回路が勝手に補正してくれるということなのでしょうか。</p>
+<p> </p>
+<h2 id="-ドライバ段のロードラインを検証する">▼ ドライバ段のロードラインを検証する</h2>
+<p>　そうなると、なぜ「初段のDCバランスを揃える必要がある」と考えられるようになったのか、その理由を探さなければならないでしょう。ぺるけさんのＨＰを探していると、ベーシックアンプの三段構成化のページに以下の説明が見つかりました。</p>
+<blockquote>
+<p>『初段とドライバ段を直結するため、初段で生じたプッシュプル動作条件のアンバランスはそのままドライバ段に引き継がれ、さらに増幅されます。</p>
+<p>たとえば、2SK30Aのドレイン電流に0.1mAの偏差が生じてしまうと、差動出力である２つのドレイン電圧には1V（＝0.1mA×10kΩ）の差が出ます。この1Vの差はそのままドライバ段の２つの差動入力のバイアスのアンバランスになってしまいます。ドライバ段のバイアスに1Vのアンバランス（偏差）が生じると、その偏差はそのまま増幅されてプレート電圧に現れます。ドライバ段の利得は16.7倍と計算されましたから、プレート電圧に現れる偏差は16.7Vにもなります。購入した2SK30Aを無作為に選んで差動回路に使うと、同じYクラスであっても容易に0.1mA程度の偏差が生じます。</p>
+<p>特性が揃ったFETのペアを得る簡単でてっとり早い方法は、Idss（バイアス＝0Vの時に流れるドレイン電流）での選別です。Idssが揃ったからといってバイアスを与えた実際の動作で特性が揃う保証はないといえばないのですが、Idssが2%以内で揃ってくれればこれで実用上問題ないくらい揃ったペアが得られます。初作のアンプではこの方法（Idss偏差2%）で選別しています。』<br>
+- 
+<a href="http://www.op316.com/tubes/myamp/3stgbuhn.htm" target="_blank" rel="noopener">ベーシック・アンプのレベルアップ・・・３段構成化</a></p></blockquote>
+<p>　今までは何の疑いもなくこの説明書きをスルーしていたのですが、一つずつ確認していきます。まず、本機の初段 FET のドレイン電流は 0.909mA / 0.865mA でしたので、ドレイン電圧の差は 0.4V です。そして、測定した AC 電圧からドライバ段 A, B の平均利得を計算すると (2.604 + 2.603) / (0.178 + 0.175) = 14.88 倍となるので、プレート電圧に現れる偏差は 0.4V × 14.88 = 5.95V となります。初段のアンバランスを 0% から 5% に増やしたときの 6FQ7 の A, B 間プレート電圧は 7.9V - 1.6V = 6.3V 増えましたので、だいたいですがぺるけさんの説明通りの傾向にはなっていると思います。でも、現実にはアンプの歪み率は悪化しない……</p>
+<p>　いえ、初段の DC アンバランスによって影響を受けるのはドライバ段の DC 成分のみであって、オーディオ信号である AC 成分はほとんど影響を受けない、ということなのでしょう。Ei 6FQ7 のデータシートをベースにしてドライバ段のロードラインを引いて確認してみます。</p>
+<p> </p>
+<h3 id="ドライバ段-6fq7-のロードライン-初段-dc-アンバランスなし">・ドライバ段 6FQ7 のロードライン (初段 DC アンバランスなし)</h3>
+<div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_6fq7ll_diff0.gif">
+    <img src="../6bm8pp_1st_balance_6fq7ll_diff0.gif"
+      
+       width="360"
+       height="270"
+    />
+  </a>
+</div>
+
+<p> </p>
+<p>　便宜上 6FQ7 の両ユニットは同じ特性であると考え、動作ポイントをプレート電圧 100V、プレート電流 2.4mA とします。上図に引いた赤色のラインが DC 直流負荷（プレート負荷 33kΩ）で考えたロードラインで、青色のラインが AC 交流負荷（33kΩ と次段グリッド抵抗 510kΩ の合成抵抗値である 31.0kΩ）で考えたロードラインになります。初段に DC アンバランスがない場合、6FQ7 のユニット A, B のバイアスが等しくなるため、A, B の動作ポイントは同じ位置（上図の赤丸）になります。</p>
+<p> </p>
+<h3 id="ドライバ段-6fq7-の動作ポイント-初段-dc-アンバランス-5">・ドライバ段 6FQ7 の動作ポイント (初段 DC アンバランス 5%)</h3>
+<div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_6fq7ll_diff5_1.gif">
+    <img src="../6bm8pp_1st_balance_6fq7ll_diff5_1.gif"
+      
+       width="360"
+       height="270"
+    />
+  </a>
+</div>
+
+<p> </p>
+<p>　初段に DC アンバランスがあると、ドライバ段のユニット A, B の間でバイアスのずれが生じるため、A, B の動作ポイントは一致しなくなります。ユニット A, B の動作ポイントは直流負荷の赤いロードライン上で両者のバランスが取れる位置にスライドするので、バイアスが深いユニット A の動作ポイントはグラフの右下方向に、バイアスが浅いユニット B の動作ポイントはグラフの左上方向に移動します。</p>
+<p>　実機同様に 6FQ7 のユニット間で ±0.1mA ずつのずれが生じたとすると、ユニット A の動作ポイントはプレート電圧 103.3V、プレート電流 2.3mA になります。一方のユニット B はプレート電圧 96.7V、プレート電流 2.5mA になります。</p>
+<p> </p>
+<h3 id="ドライバ段-6fq7-のロードライン-初段-dc-アンバランス-5">・ドライバ段 6FQ7 のロードライン (初段 DC アンバランス 5%)</h3>
+<div class="image" style="text-align:center">
+  <a href="../6bm8pp_1st_balance_6fq7ll_diff5_2.gif">
+    <img src="../6bm8pp_1st_balance_6fq7ll_diff5_2.gif"
+      
+       width="360"
+       height="270"
+    />
+  </a>
+</div>
+
+<p> </p>
+<p>　さらに、6FQ7 のユニット A, B それぞれに対して交流負荷 31.0kΩ のロードラインを引いた結果が上図になります……が、見ての通り A と B のロードラインはほとんど重なってしまいました。ユニット A のロードラインはグラフの縦軸 5.63mA と横軸 174.6V を結ぶ直線で、ユニット B のロードラインはグラフの縦軸 5.62mA と横軸 174.2V を結ぶ直線なのですから、両者の違いは誤差のようなものです。唯一の違いは、A と B の動作ポイントが違うくらいです。</p>
+<p>　つまり、ドライバ段 6FQ7 の A の動作ポイントにおける直線性と、B の動作ポイントにおける直線性に差がなければ、ドライバ段の増幅は初段の DC アンバランスの影響を受けない、ということです。これで、ようやく歪み率が悪化しない理由が納得できるレベルで解釈できるようになったと思います。</p>
+<p> </p>
+<h2 id="-まとめ">▼ まとめ</h2>
+<p>　どうやら、初段の DC バランスを神経質なまでに（1% 程度の精度で）取る必要性はなさそうです。本機では設計段階から初段の共通ソースに DC バランス調整用のボリュームを入れていましたが、初段 FET の Idss が 2～3% 程度の精度で取れていれば DC 調整用のボリュームは不要です。</p>
+<p>　それでも、各段の DC バランスが取れていないと精神衛生上よろしくない、と言う人はいるかもしれませんけどね……<br>
+いや、むしろ FET のペア取りの制約が緩くなって、今まで「使えない」と思っていた FET が使える可能性が出てくるのですから、ディスクリートの半導体部品の入手が難しくなりつつある現状を踏まえれば、むしろ喜ぶできなのでしょう。</p>
+<p>　ドライバ段以外に副作用があるとすると、初段 FET の DC バランスが崩れるということは一方の FET のバイアスが浅くなるということなので、最大出力時のクリッピングが早くなるかもしれません。とはいえ、影響度は微々たるものだと思いますが。なお、本実験については、主観によって評価がブレることを避けたため試聴比較は行っておりません。</p>
+<p>　また、本ページは３段構成の全段差動プッシュプルについての考察となります。拙作 
+<a href="../../ecc99pp/index.html">ECC99 全段差動</a>や 
+<a href="http://www.op316.com/tubes/mw/index.htm" target="_blank" rel="noopener">Mini Watters</a> で取り上げられている初段 FET ＋ 双三極管を出力管とする全段差動プッシュプルアンプでは、出力トランスの DC バランスを取るために初段 FET の共通ソースの半固定抵抗は必須であり、双三極管のばらつきを補正する目的であるため初段 FET の Idss がなるべく揃っている方が個々の真空管のばらつきに対応しやすいと考えます。</p>
+<p>　初段の DC アンバランスがどこまで許容されるかはケースバイケースなところがあるとは思いますが、機会があればアンバランス 10% 以上のケースも含めてまた実験したいと思います。</p>
+        </div>
+        <footer>
+  <p class="meta">
+    <span class="byline author vcard">&ensp;&ensp;Posted by <span class="fn">Suwasaki Ryu</span></span><time>2025.07.12 21:40</time>
+    
+      <span class="categories">
+        Tags:<a class="category" href="../../../../tags/%e7%9c%9f%e7%a9%ba%e7%ae%a1%e3%82%a2%e3%83%b3%e3%83%97/index.html">真空管アンプ</a>  <a class="category" href="../../../../tags/%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab/index.html">全段差動プッシュプル</a>  <a class="category" href="../../../../tags/6bm8/index.html">6BM8</a>  <a class="category" href="../../../../tags/6fq7/index.html">6FQ7</a>  <a class="category" href="../../../../tags/12au7/index.html">12AU7</a>  <a class="category" href="../../../../tags/2sk30a/index.html">2SK30A</a>  <a class="category" href="../../../../tags/fe-25-8/index.html">FE-25-8</a>  
+    
+    </span>
+  </p>
+    <div class="sns_share_area">
+      <ul class="sns_share_list"><li class="sns_share_item">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2f1st_balance%2findex.html&t=%ef%bc%93%e6%ae%b5%e6%a7%8b%e6%88%90%206BM8%20%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab%e3%82%a2%e3%83%b3%e3%83%97%ef%bc%88%e5%88%9d%e6%ae%b5DC%e3%83%90%e3%83%a9%e3%83%b3%e3%82%b9%e6%a4%9c%e8%a8%bc%ef%bc%89%0A"><i class="fa-brands fa-facebook fa-2x" style="color:#1877f2"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2f1st_balance%2findex.html&text=%ef%bc%93%e6%ae%b5%e6%a7%8b%e6%88%90%206BM8%20%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab%e3%82%a2%e3%83%b3%e3%83%97%ef%bc%88%e5%88%9d%e6%ae%b5DC%e3%83%90%e3%83%a9%e3%83%b3%e3%82%b9%e6%a4%9c%e8%a8%bc%ef%bc%89%0A"><i class="fa-brands fa-twitter fa-2x" style="color:#1d9bf0"></i></a>
+          <a href="https://twitter.com/search?q=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2f1st_balance%2findex.html"><i class="fa-solid fa-comment-dots fa-2x" style="color:#1d9bf0"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://bsky.app/intent/compose?text=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2f1st_balance%2findex.html"><i class="fa-brands fa-bluesky fa-2x" style="color:#1185fe"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://mastodonshare.com/?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2f1st_balance%2findex.html&text=%ef%bc%93%e6%ae%b5%e6%a7%8b%e6%88%90%206BM8%20%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab%e3%82%a2%e3%83%b3%e3%83%97%ef%bc%88%e5%88%9d%e6%ae%b5DC%e3%83%90%e3%83%a9%e3%83%b3%e3%82%b9%e6%a4%9c%e8%a8%bc%ef%bc%89%0A"><i class="fa-brands fa-mastodon fa-2x" style="color:#6364ff"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://b.hatena.ne.jp/entry/https://suwasakix.github.io/post/tube-amp/6bm8pp/1st_balance/index.html"><img class="sns_share_item_image" src="../../../../share/hatena.png" width="36px" height="36px"></img></a>
+        </li><li class="sns_share_item">
+          <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2ftube-amp%2f6bm8pp%2f1st_balance%2findex.html"><img class="sns_share_item_image" src="../../../../share/line.png" width="36px" height="36px"></img></a>
+        </li>
+      </ul>
+      <p>
+      </p>
+    </div>
+  
+</footer>
+
+      </article>
+    </div>
+    <aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>About this blog</h1>
+    
+
+    <p>
+      
+        Xジェンダーとしていわゆる LGBTs 系の題材を扱いつつ、ダイバーシティ、ソフトウェア開発、電気工作、金融経済など幅広いジャンルをカバーします。
+      
+    </p>
+  </section><ul class="sidebar-nav">
+  <li class="sidebar-nav-item">
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/suwasakix" title="https://github.com/suwasakix"><i class="fa-brands fa-github fa-2x"></i></a>
+    
+    
+    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/suwasakix" title="https://twitter.com/suwasakix"><i class="fa-brands fa-twitter fa-2x"></i></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/suwasakix.bsky.social" title="https://bsky.app/profile/suwasakix.bsky.social"><i class="fa-brands fa-bluesky fa-2x"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </li>
+</ul>
+
+    
+      <br>
+      <section class="even">
+        <h1>Categories</h1>
+          
+            <li>
+              <a href="../../../../categories/100km%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF/index.html" title="Categories" >100kmウォーク</a> <span class="count">(9)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/x%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC%E3%82%AA%E3%83%95%E4%BC%9A/index.html" title="Categories" >Xジェンダーオフ会</a> <span class="count">(2)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/index.html" title="Categories" >アーカイブ</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E3%81%AA%E3%82%89%E3%81%BE%E3%81%A1%E3%81%8A%E8%8C%B6%E4%BC%9A/index.html" title="Categories" >ならまちお茶会</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB/index.html" title="Categories" >はじめに</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E6%80%9D%E3%81%84%E5%87%BA/index.html" title="Categories" >思い出</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../../categories/%E7%9C%9F%E7%A9%BA%E7%AE%A1%E3%82%A2%E3%83%B3%E3%83%97/index.html" title="Categories" >真空管アンプ</a> <span class="count">(9)</span>
+            </li>
+          
+      </section>
+    
+  
+    
+      <br>
+      <section class="even">
+        
+          <h1>External Links</h1>
+        
+        
+          <li>
+            <a href="https://ftxmtx-x-gender.com" title="label X" >label X</a>
+          </li>
+        
+          <li>
+            <a href="https://www.asahi.com/xtremewalk/" title="Xtreme Walk" >Xtreme Walk</a>
+          </li>
+        
+          <li>
+            <a href="http://www.op316.com/tubes/tubes.htm" title="情熱の真空管" >情熱の真空管</a>
+          </li>
+        
+      </section>
+    
+  
+    
+      <br>
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+          
+            <li class="post">
+              <a href="../../../../post/tube-amp/6bm8pp/review/index.html">３段構成 6BM8 全段差動プッシュプルアンプ</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/tube-amp/ecc99pp/index.html">ECC99 全段差動プッシュプルアンプ</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/tube-amp/6bm8se-tu870/index.html">6BM8 定電流バイアスシングルアンプ (Elekit TU-870 改)</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/100kmwalk/20250618/index.html">第10回東京エクストリームウォーク100 (2025.5.17-18) 回顧録</a> <time><span class="date">2025.06.18</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../../post/memories/20250509/index.html">飼い猫の思い出 (2003 - 2025)</a> <time><span class="date">2025.05.09</span></time>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+</aside>
+
+  </div>
+</div>
+
+    <footer role="contentinfo">
+      <p>Copyright &copy; 2025 Suwasaki Ryu - <a href="../../../../license/index.html">License</a> -
+        <span class="credit">Powered by <a target="_blank" href="https://gohugo.io" rel="noopener noreferrer">Hugo</a> and <a target="_blank" href="https://github.com/suwasakix/hugo-octopress/" rel="noopener noreferrer">Hugo-Octopress</a> theme.
+      </p>
+    </footer>
+  </body>
+</html>
+

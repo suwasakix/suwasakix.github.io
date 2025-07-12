@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ECC99 on suwasakix&#39;s weblog</title>
+    <link>/tags/ecc99/</link>
+    <description>Recent content in ECC99 on suwasakix&#39;s weblog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 12 Jul 2025 21:05:00 +0900</lastBuildDate>
+    <atom:link href="/tags/ecc99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ECC99 全段差動プッシュプルアンプ</title>
+      <link>/post/tube-amp/ecc99pp/</link>
+      <pubDate>Sat, 12 Jul 2025 21:05:00 +0900</pubDate>
+      <guid>/post/tube-amp/ecc99pp/</guid>
+      <description>&lt;div class=&#34;image&#34; style=&#34;text-align:center&#34;&gt;&#xA;  &lt;a href=&#34;ecc99pp_front.jpg&#34;&gt;&#xA;    &lt;img src=&#34;ecc99pp_front.jpg&#34;&#xA;      &#xA;       width=&#34;360&#34;&#xA;       height=&#34;270&#34;&#xA;    /&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;　ECC99 All Stage Differential Amplifier&lt;/p&gt;&#xA;&lt;p&gt;　本アンプは、低消費電力をコンセプトとした最小構成の全段差動プッシュプルアンプで 2005 年に設計・製作しました。ドキュメントの内容は、2011年5月に書いた内容をそのまま転載してあります。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
