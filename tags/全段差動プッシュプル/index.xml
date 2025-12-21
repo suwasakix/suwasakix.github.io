@@ -6,8 +6,15 @@
     <description>Recent content in 全段差動プッシュプル on suwasakix&#39;s weblog</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 12 Jul 2025 21:40:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 20:30:00 +0900</lastBuildDate>
     <atom:link href="/tags/%E5%85%A8%E6%AE%B5%E5%B7%AE%E5%8B%95%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5%E3%83%97%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ダイオード/トランジスタ/FET測定器</title>
+      <link>/post/electronics/20251221/</link>
+      <pubDate>Sun, 21 Dec 2025 20:30:00 +0900</pubDate>
+      <guid>/post/electronics/20251221/</guid>
+      <description>&lt;div class=&#34;image&#34; style=&#34;text-align:center&#34;&gt;&#xA;  &lt;a href=&#34;boards.jpg&#34;&gt;&#xA;    &lt;img src=&#34;boards.jpg&#34;&#xA;      &#xA;       width=&#34;360&#34;&#xA;       height=&#34;270&#34;&#xA;    /&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;　ぺるけ式アンプを製作するときのお供、ダイオード/Tr/FET測定器の基板を作りました。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>３段構成 6BM8 全段差動プッシュプルアンプ（初段DCバランス検証）</title>
       <link>/post/tube-amp/6bm8pp/1st_balance/</link>

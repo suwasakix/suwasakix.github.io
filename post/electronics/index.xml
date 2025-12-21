@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>電気工作 on suwasakix&#39;s weblog</title>
+    <link>/post/electronics/</link>
+    <description>Recent content in 電気工作 on suwasakix&#39;s weblog</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 21 Dec 2025 20:30:00 +0900</lastBuildDate>
+    <atom:link href="/post/electronics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ダイオード/トランジスタ/FET測定器</title>
+      <link>/post/electronics/20251221/</link>
+      <pubDate>Sun, 21 Dec 2025 20:30:00 +0900</pubDate>
+      <guid>/post/electronics/20251221/</guid>
+      <description>&lt;div class=&#34;image&#34; style=&#34;text-align:center&#34;&gt;&#xA;  &lt;a href=&#34;boards.jpg&#34;&gt;&#xA;    &lt;img src=&#34;boards.jpg&#34;&#xA;      &#xA;       width=&#34;360&#34;&#xA;       height=&#34;270&#34;&#xA;    /&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;　ぺるけ式アンプを製作するときのお供、ダイオード/Tr/FET測定器の基板を作りました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

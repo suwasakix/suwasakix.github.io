@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <html prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+      <link href="../../../css/fonts.css" rel="stylesheet" type="text/css">
+    
+  <title>ダイオード/トランジスタ/FET測定器</title><link rel="stylesheet" href="../../../css/hugo-octopress.css">
+
+  
+    <link rel="stylesheet" href="../../../css/font-awesome.min.css">
+  
+    <link href="../../../favicon.png" rel="icon">
+  
+
+  <meta name="description" content="ぺるけ式アンプを製作するための部品測定器">
+  <meta name="keywords" content="">
+  <meta name="author" content="Suwasaki Ryu"><meta name="generator" content="Hugo 0.147.1">
+  <meta property="og:title" content="ダイオード/トランジスタ/FET測定器">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="suwasakix&#39;s weblog">
+    <meta property="og:url" content="https://suwasakix.github.io/post/electronics/20251221/index.html">
+    <meta property="og:description" content="ぺるけ式アンプを製作するための部品測定器">
+      
+      
+      
+        <meta property="og:image" content="https://suwasakix.github.io/post/electronics/20251221/boards.jpg">
+      
+    
+        <meta property="fb:app_id" content="889916052116072">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ダイオード/トランジスタ/FET測定器">
+    <meta name="twitter:description" content="ぺるけ式アンプを製作するための部品測定器">
+      
+      
+      
+        <meta name="twitter:image" content="https://suwasakix.github.io/post/electronics/20251221/boards.jpg">
+      
+    
+  
+
+
+</head>
+<body><header role="banner"><hgroup><h1><a href="https://suwasakix.github.io">suwasakix&#39;s weblog</a></h1>
+    <h2>SOGIE, Diversity, Software-engineering, Electronics, Finances, Philosophy, etc.</h2>
+</hgroup></header><nav role="navigation"><fieldset class="mobile-nav"><select onchange="location = this.value;">
+    <option value="">Navigate…</option>
+      
+        <option value="/about/index.html">» About Me</option>
+      
+        <option value="/index.html">» Weblog</option>
+      
+        <option value="/categories/index.html">» Categories</option>
+      
+        <option value="/tags/index.html">» Tags</option>
+      
+        <option value="/post/xgender-party/20250915/index.html">» X-gender Party</option>
+      
+        <option value="/post/naramachi-teaparty/20240118/index.html">» Tea Party in Nara</option>
+      
+        <option value="/contact/index.html">» Contact</option>
+      
+  </select>
+</fieldset><ul class="main-navigation">
+    
+      <li><a href="../../../about/index.html" title="About Me"  target="_blank"  rel="noopener noreferrer">About Me</a></li>
+    
+  
+    
+      <li><a href="../../../index.html" title="Weblog"  target="_blank"  rel="noopener noreferrer">Weblog</a></li>
+    
+  
+    
+      <li><a href="../../../categories/index.html" title="Categories"  target="_blank"  rel="noopener noreferrer">Categories</a></li>
+    
+  
+    
+      <li><a href="../../../tags/index.html" title="Tags"  target="_blank"  rel="noopener noreferrer">Tags</a></li>
+    
+  
+    
+      <li><a href="../../../post/xgender-party/20250915/index.html" title="X-gender Party"  target="_blank"  rel="noopener noreferrer">X-gender Party</a></li>
+    
+  
+    
+      <li><a href="../../../post/naramachi-teaparty/20240118/index.html" title="Tea Party in Nara"  target="_blank"  rel="noopener noreferrer">Tea Party in Nara</a></li>
+    
+  
+    
+      <li><a href="../../../contact/index.html" title="Contact"  target="_blank"  rel="noopener noreferrer">Contact</a></li>
+    
+  
+</ul>
+
+<ul class="subscription">
+  
+    
+        <a href="../../../index.xml" target="_blank" type="application/rss+xml" title="RSS" rel="noopener noreferrer"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+</ul>
+
+
+  <form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer">
+    <fieldset role="search">
+      <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+      <input type="hidden" name="q" value="site:suwasakix.github.io" />
+    </fieldset>
+  </form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        <header>
+  <p class="meta">2025.12.21
+    
+
+    - <a class="label" href="../../../categories/%e9%9b%bb%e6%b0%97%e5%b7%a5%e4%bd%9c/index.html">電気工作 </a>
+    
+  </p>
+  <h1 class="entry-title">
+     ダイオード/トランジスタ/FET測定器 
+  </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          <div class="image" style="text-align:center">
+  <a href="boards.jpg">
+    <img src="boards.jpg"
+      
+       width="360"
+       height="270"
+    />
+  </a>
+</div>
+
+<p> </p>
+<p>　ぺるけ式アンプを製作するときのお供、ダイオード/Tr/FET測定器の基板を作りました。</p>
+<p> </p>
+<p><strong><h1>【 もくじ 】</h1></strong></p>
+<div class="toc_unmarked">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-この基板は何ですか">■ この基板は何ですか？</a></li>
+    <li><a href="#-この基板はどこで入手できますか">■ この基板はどこで入手できますか？</a></li>
+    <li><a href="#-この基板に取り付ける部品はどこで入手すればよいですか">■ この基板に取り付ける部品はどこで入手すればよいですか？</a></li>
+    <li><a href="#-この基板は自由に再配布できますか">■ この基板は自由に再配布できますか？</a></li>
+  </ul>
+</nav>
+</div>
+
+<p> </p>
+<h1 id="-この基板は何ですか">■ この基板は何ですか？</h1>
+<p>　
+<a href="http://www.op316.com" target="_blank" rel="noopener">ぺるけさんのＨＰ</a>で紹介されている真空管アンプや半導体アンプの製作記事には、ところどころで選別した部品を使用するようにとの指示があります。かつてはぺるけさん自身が選別部品の頒布もしておられたのですが、ぺるけさんが活動停止して以後は（有志の方による部品頒布もありますが）基本的に自分で部品を調達して選別するというスタイルになっているのではないかと思います。</p>
+<p>　部品を選別するためには、そのための測定器を自作する必要があるのですが、めんどい。あり合わせの部品で作るとしても配線作業は避けられないので、部品のレイアウトや配線を考えないといけないし、考えたとしても「この配線で合ってるか？」と確認しないといけないし、めんどい。できれば「工作のための工作」は避けたい……</p>
+<p>　であれば、測定器の基板を作ってデータを公開しておけば、これから測定器を自作しようとする方々がだいぶ助かるのではないかと思った次第です。製作したのは以下の３種類です。</p>
+<ul>
+<li>
+<p>
+<a href="https://github.com/suwasakix/simple_crd_zd_fet_tester" target="_blank" rel="noopener">Simple CRD/ZD/FET Tester (定電流ダイオード/定電圧ダイオード/FET 簡易測定器)</a></p>
+</li>
+<li>
+<p>
+<a href="https://github.com/suwasakix/simple_hfe_tester" target="_blank" rel="noopener">Simple hFE Tester (トランジスタ hFE 簡易測定器)</a></p>
+</li>
+<li>
+<p>
+<a href="https://github.com/suwasakix/fet_bias_tester" target="_blank" rel="noopener">FET Bias Tester (FET バイアス測定器)</a></p>
+</li>
+</ul>
+<p>　自作アンプのために部品を選別するのであれば上からの２つがあれば十分と思いますが、FET バイアス測定器を使用すると頒布グレードで部品選別ができます。さらに、ぺるけさんオリジナルの
+<a href="http://www.op316.com/tubes/toy-box/tester2.htm" target="_blank" rel="noopener">FET &amp; CRD選別冶具</a>ではドレイン電流値が３種類まででしたが、こちらの測定器では最大９種類のドレイン電流値に対応します。<span style="font-size:70%">あ、はい、調子に乗りました</span></p>
+<p>　あとは、基板をどのように配布するかです。かつてプリント基板の製作・発注は敷居の高いものでしたが、幸い今では 10cm 四方以下の基板サイズであれば海外メーカーに格安で製造委託することが可能です。送料込みでも数千円程度の費用で発注することができるので、便利な時代になったものです。つまり、基板のデータさえ公開しておけば、誰でも簡単にリーズナブルなお値段で同じ基板を入手できるということです。</p>
+<p> </p>
+<h1 id="-この基板はどこで入手できますか">■ この基板はどこで入手できますか？</h1>
+<p>　上述のリンク先サイト（GitHub）で基板のデータファイルを公開していますので、そちらから各自でファイルをダウンロードして基板製造メーカーに発注してください。基板製造メーカーは国内外にありますが、私は専ら深圳の Seeed studio が提供する PCB 製造サービス「
+<a href="https://www.fusionpcb.jp" target="_blank" rel="noopener">Fusion PCB</a>」を利用しております。世界の電機産業を牽引している深圳だけあって、品質は何ら問題ありません。</p>
+<p>　<strong>私個人としては、自らの手で基板の実物を配布する予定はありませんし、将来的に行うつもりもありません。</strong> その理由を以下に記しておきます。</p>
+<hr>
+<p> </p>
+<p>　電気工作をネットで公開しているところでは、自作基板の現物を有償で配布している作者の方が割と多いのではないかと思います。ただ、その方法だと基板の発注や在庫管理・発送はもちろん、基板頒布のリクエストや入金のチェックも日々行わなければなりません。人によっては、年間で20万円以上の利益が発生して雑所得の申告が必要になるかもしれません。さらに、基板の発送をするとなると他人の住所やら電話番号といった個人情報を扱うことになるので、その点についても注意しなければいけません。万が一、自分の PC が悪意のあるソフトウェアに感染して個人情報の流出が発生してしまっては一大事です。</p>
+<p>　ただでさえ日々の生活に制約を受けるのに、そうしたリスクも背負わなければならない。</p>
+<p>　そうした問題を避ける一番の方法は、基板のデータをネットで公開して、基板をほしい方が各自で基板製造メーカーに発注してもらうことです。そうすれば製作者は基板設計に専念することができますし、金銭や個人情報のやり取りも一切必要なくなりますので。金銭や個人情報に関する問題は、それらを受け渡さなければ起こりようがないのです。そういう時代になったということです。</p>
+<p>　もう１つの問題点として、自作基板を配布している本人が何らかの事情により配布活動を休止・終了してしまったら、もうその基板と全く同じものを入手することができなくなってしまいます。しかし、基板のデータそのものを公開しておけば、公開しているサイトがネット上に存在し続ける限り誰でも基板を入手することができますし、基板データを編集すればオリジナルの改造をすることもできます。GitHub に基板データを置いておけば、100年先でも 200年先でも、この世にインターネットが存在し続ける限り配布を続けることができるでしょう。<span style="font-size:70%">問題は、リードタイプの半導体部品がいつまで生き残れるかどうかだ……</span></p>
+<hr>
+<p> </p>
+<p>　実物を製造・改変するために必要なデータが公開されていて、誰でも利用や再配布が可能なコンピュータや電子機器のことを「オープンソースハードウェア」と呼びます。本作品は、基板製造メーカーに発注するためのデータファイル（ガーバーデータ）だけでなく基板設計に使用した KiCad のデータファイルもソースファイルとして公開していますので、オープンソースハードウェアと呼ぶことができるのではないかと思います。</p>
+<p>　オープンソースと言えば、「オープンソースソフトウェア (OSS)」のことを思い浮かべる方もいると思います。OSS はソースコードが公開されているだけでなく、誰でも自由に配布したり改変したりすることが可能なことを保障するためのルール（ライセンス条項）が決められています。一時代昔には「フリーソフトウェア」と呼ばれる概念も一般的でしたが、ソースコードが非公開のソフトは作者だけしかアップデートすることができずソフト資産の継承ができない、著作権上の取り扱いに曖昧さがある場合には二次理由が困難といった課題があるため、現在では GitHub などの公開リポジトリにソースコードを公開して上でソフトの実行ファイルもそこで配布する、という手法が広く取られるようになっています。本作品も、その流儀に則って公開しているものです。</p>
+<p> </p>
+<h1 id="-この基板に取り付ける部品はどこで入手すればよいですか">■ この基板に取り付ける部品はどこで入手すればよいですか？</h1>
+<p>　上述のリンク先サイトのドキュメントに、部品リストとその入手元を掲載しています。入手元は日本国内から通販で購入可能な業者という観点からなるべく
+<a href="https://akizukidenshi.com" target="_blank" rel="noopener">秋月電子通商</a>で揃えるようにしていますが、秋月以外では
+<a href="https://www.sengoku.co.jp" target="_blank" rel="noopener">千石電商</a>・
+<a href="https://eleshop.jp" target="_blank" rel="noopener">共立エレショップ</a>・
+<a href="https://www.marutsu.co.jp" target="_blank" rel="noopener">マルツオンライン</a>でも部品を入手することは可能です。</p>
+<p>　注意点として、スイッチやソケットについては各部品によって取り付け寸法が異なるため、部品リストに掲載されている型番のものを入手することを強く推奨します（スイッチやソケットについては、リスト中に掲載した型番のものが実物の基板に収まることを現物で確認しています）。部品リストに掲載されていない部品を使用したい場合は、その部品を取り扱っている店舗で基板と部品が合うかどうかを実物で確認するようにしてください。</p>
+<p> </p>
+<h1 id="-この基板は自由に再配布できますか">■ この基板は自由に再配布できますか？</h1>
+<p>　できます。基板のみを配布してもよいですし、部品を実装した完成品の形で配布してもよいです。商用・非商用を問わず、自由に再配布できます。</p>
+<p>　再配布にあたり、作者から承諾を取ることは不要です。といいますか、作者への連絡すら不要です。そのためのオープンソースだから。</p>
+<p>　ただし「オープンソース」であるということは、本作品が自由に配布された後のことについて作者は一切与り知らぬ、ということでもあります。つまり、オープンソースの作品である以上「<strong>無保証 (NO WARRANTY)</strong>」であるということです。その点についてはご留意頂きたいと思います。</p>
+<p>　なお、本作品のライセンスは 
+<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">Creative Commons CC-BY 4.0 License</a> です。このライセンスを簡単に説明しますと、本作品の改変物を配布する場合には、その配布物に現作品の著作権者を明記すること、および当該作品が二次創作物であること（改変を加えたという事実）を明記することが課せられます。</p>
+<p>　逆の言い方をしますと、個人の利用範囲内で改造したり、本作品を無改造のまま利用・再配布するだけであれば、何の制限もありません。</p>
+<p>　本作品が、皆様の電気工作のお役に立つことを願っております。</p>
+<p> </p>
+        </div>
+        <footer>
+  <p class="meta">
+    <span class="byline author vcard">&ensp;&ensp;Posted by <span class="fn">Suwasaki Ryu</span></span><time>2025.12.21 20:30</time>
+    
+      <span class="categories">
+        Tags:<a class="category" href="../../../tags/%e9%9b%bb%e6%b0%97%e5%b7%a5%e4%bd%9c/index.html">電気工作</a>  <a class="category" href="../../../tags/%e6%b8%ac%e5%ae%9a%e5%99%a8/index.html">測定器</a>  <a class="category" href="../../../tags/%e5%ae%9a%e9%9b%bb%e6%b5%81%e3%83%80%e3%82%a4%e3%82%aa%e3%83%bc%e3%83%89/index.html">定電流ダイオード</a>  <a class="category" href="../../../tags/%e5%ae%9a%e9%9b%bb%e5%9c%a7%e3%83%80%e3%82%a4%e3%82%aa%e3%83%bc%e3%83%89/index.html">定電圧ダイオード</a>  <a class="category" href="../../../tags/%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b8%e3%82%b9%e3%82%bf/index.html">トランジスタ</a>  <a class="category" href="../../../tags/fet/index.html">FET</a>  <a class="category" href="../../../tags/%e7%9c%9f%e7%a9%ba%e7%ae%a1%e3%82%a2%e3%83%b3%e3%83%97/index.html">真空管アンプ</a>  <a class="category" href="../../../tags/%e5%85%a8%e6%ae%b5%e5%b7%ae%e5%8b%95%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%83%97%e3%83%ab/index.html">全段差動プッシュプル</a>  <a class="category" href="../../../tags/mini-watters/index.html">Mini-Watters</a>  
+    
+    </span>
+  </p>
+    <div class="sns_share_area">
+      <ul class="sns_share_list"><li class="sns_share_item">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fsuwasakix.github.io%2fpost%2felectronics%2f20251221%2findex.html&t=%e3%83%80%e3%82%a4%e3%82%aa%e3%83%bc%e3%83%89%2f%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b8%e3%82%b9%e3%82%bf%2fFET%e6%b8%ac%e5%ae%9a%e5%99%a8%0A"><i class="fa-brands fa-facebook fa-2x" style="color:#1877f2"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2felectronics%2f20251221%2findex.html&text=%e3%83%80%e3%82%a4%e3%82%aa%e3%83%bc%e3%83%89%2f%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b8%e3%82%b9%e3%82%bf%2fFET%e6%b8%ac%e5%ae%9a%e5%99%a8%0A"><i class="fa-brands fa-twitter fa-2x" style="color:#1d9bf0"></i></a>
+          <a href="https://twitter.com/search?q=https%3a%2f%2fsuwasakix.github.io%2fpost%2felectronics%2f20251221%2findex.html"><i class="fa-solid fa-comment-dots fa-2x" style="color:#1d9bf0"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://bsky.app/intent/compose?text=https%3a%2f%2fsuwasakix.github.io%2fpost%2felectronics%2f20251221%2findex.html"><i class="fa-brands fa-bluesky fa-2x" style="color:#1185fe"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://mastodonshare.com/?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2felectronics%2f20251221%2findex.html&text=%e3%83%80%e3%82%a4%e3%82%aa%e3%83%bc%e3%83%89%2f%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b8%e3%82%b9%e3%82%bf%2fFET%e6%b8%ac%e5%ae%9a%e5%99%a8%0A"><i class="fa-brands fa-mastodon fa-2x" style="color:#6364ff"></i></a>
+        </li><li class="sns_share_item">
+          <a href="https://b.hatena.ne.jp/entry/https://suwasakix.github.io/post/electronics/20251221/index.html"><img class="sns_share_item_image" src="../../../share/hatena.png" width="36px" height="36px"></img></a>
+        </li><li class="sns_share_item">
+          <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fsuwasakix.github.io%2fpost%2felectronics%2f20251221%2findex.html"><img class="sns_share_item_image" src="../../../share/line.png" width="36px" height="36px"></img></a>
+        </li>
+      </ul>
+      <p>
+      </p>
+    </div>
+  
+</footer>
+
+      </article>
+    </div>
+    <aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+      <h1>About this blog</h1>
+    
+
+    <p>
+      
+        Xジェンダーとしていわゆる LGBTs 系の題材を扱いつつ、ダイバーシティ、ソフトウェア開発、電気工作、金融経済など幅広いジャンルをカバーします。
+      
+    </p>
+  </section><ul class="sidebar-nav">
+  <li class="sidebar-nav-item">
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/suwasakix" title="https://github.com/suwasakix"><i class="fa-brands fa-github fa-2x"></i></a>
+    
+    
+    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/suwasakix" title="https://twitter.com/suwasakix"><i class="fa-brands fa-twitter fa-2x"></i></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/suwasakix.bsky.social" title="https://bsky.app/profile/suwasakix.bsky.social"><i class="fa-brands fa-bluesky fa-2x"></i></a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </li>
+</ul>
+
+    
+      <br>
+      <section class="even">
+        <h1>Categories</h1>
+          
+            <li>
+              <a href="../../../categories/100km%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF/index.html" title="Categories" >100kmウォーク</a> <span class="count">(9)</span>
+            </li>
+          
+            <li>
+              <a href="../../../categories/x%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80%E3%83%BC%E3%82%AA%E3%83%95%E4%BC%9A/index.html" title="Categories" >Xジェンダーオフ会</a> <span class="count">(3)</span>
+            </li>
+          
+            <li>
+              <a href="../../../categories/%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/index.html" title="Categories" >アーカイブ</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../categories/%E3%81%AA%E3%82%89%E3%81%BE%E3%81%A1%E3%81%8A%E8%8C%B6%E4%BC%9A/index.html" title="Categories" >ならまちお茶会</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../categories/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB/index.html" title="Categories" >はじめに</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../categories/%E6%80%9D%E3%81%84%E5%87%BA/index.html" title="Categories" >思い出</a> <span class="count">(1)</span>
+            </li>
+          
+            <li>
+              <a href="../../../categories/%E7%9C%9F%E7%A9%BA%E7%AE%A1%E3%82%A2%E3%83%B3%E3%83%97/index.html" title="Categories" >真空管アンプ</a> <span class="count">(9)</span>
+            </li>
+          
+            <li>
+              <a href="../../../categories/%E9%9B%BB%E6%B0%97%E5%B7%A5%E4%BD%9C/index.html" title="Categories" >電気工作</a> <span class="count">(1)</span>
+            </li>
+          
+      </section>
+    
+  
+    
+      <br>
+      <section class="even">
+        
+          <h1>External Links</h1>
+        
+        
+          <li>
+            <a href="https://ftxmtx-x-gender.com" title="label X" >label X</a>
+          </li>
+        
+          <li>
+            <a href="https://www.asahi.com/xtremewalk/" title="Xtreme Walk" >Xtreme Walk</a>
+          </li>
+        
+          <li>
+            <a href="http://www.op316.com/tubes/tubes.htm" title="情熱の真空管" >情熱の真空管</a>
+          </li>
+        
+      </section>
+    
+  
+    
+      <br>
+      <section class="even">
+        <h1>Recent Posts</h1>
+        <ul id="recent_posts">
+          
+          
+            <li class="post">
+              <a href="../../../post/electronics/20251221/index.html">ダイオード/トランジスタ/FET測定器</a> <time><span class="date">2025.12.21</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../post/xgender-party/20250915/index.html">Xジェンダーオフ会 (2025/11/16) のお知らせ</a> <time><span class="date">2025.09.15</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../post/tube-amp/6bm8pp/review/index.html">３段構成 6BM8 全段差動プッシュプルアンプ</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../post/tube-amp/ecc99pp/index.html">ECC99 全段差動プッシュプルアンプ</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+            <li class="post">
+              <a href="../../../post/tube-amp/6bm8se-tu870/index.html">6BM8 定電流バイアスシングルアンプ (Elekit TU-870 改)</a> <time><span class="date">2025.07.12</span></time>
+            </li>
+          
+        </ul>
+      </section>
+    
+  
+</aside>
+
+  </div>
+</div>
+
+    <footer role="contentinfo">
+      <p>Copyright &copy; 2025 Suwasaki Ryu - <a href="../../../license/index.html">License</a> -
+        <span class="credit">Powered by <a target="_blank" href="https://gohugo.io" rel="noopener noreferrer">Hugo</a> and <a target="_blank" href="https://github.com/suwasakix/hugo-octopress/" rel="noopener noreferrer">Hugo-Octopress</a> theme.
+      </p>
+    </footer>
+  </body>
+</html>
+
